@@ -7,7 +7,7 @@ var port = 2000;
 function spider (callback,postData) {
 	var post_data = JSON.stringify(postData)
 	const option = {
-		hostname:'www.dxzjjl.cc',
+		hostname:'www.xxx.xxx',
 		port:80,
 		path:'/api/a/system_sms/send.json',
 		headers:{
